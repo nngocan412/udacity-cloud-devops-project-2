@@ -1,9 +1,12 @@
+Description: >
+  Nguyen Ngoc An - AnNN2@fpt.com
+
 Parameters:
   EnvironmentName:
     Description: An environment name that will be prefixed to resource names
     Type: String
   S3BucketName:
-    Description: The name of S3 bucket
+    Description: The name of S3 bucket that will be store the index.html file
     Type: String
 
 Resources:
