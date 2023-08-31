@@ -10,10 +10,10 @@ Create network
 bash create.sh network network.yml network-parameters.json
 ```
 
-Upload `index.html` to s3
+Create s3 bucket
 
 ```bash
-bash create.sh project-2 s3-bucket.yml s3-bucket-parameters.json aws s3api put-object --bucket myudagrambucket0810 --key index.html
+bash create.sh s3-bucket s3-bucket.yml s3-bucket-parameters.json
 ```
 
 Create udagram
@@ -30,12 +30,14 @@ Delete network
 bash delete.sh network
 ```
 
+Delete s3 bucket
+
+```bash
+bash delete.sh s3-bucket
+```
+
 Delete udagram
 
 ```bash
 bash delete.sh udagram
 ```
-
-## Other considerations
-
-TODO (optional)
